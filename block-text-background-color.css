@@ -1,0 +1,30 @@
+.block-text-background-wrapper {
+    padding: 50px 20%;
+}
+
+.block-text-background-wrapper p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    letter-spacing: 1.2px;
+
+    margin: 0%;
+}
+
+@media (max-width: 750px) {
+    /* .block-text-background-wrapper {
+        padding: 75px 10%;
+    } */
+
+    .block-text-background-wrapper p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 550px) {
+    .block-text-background-wrapper p {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,117 @@
+.three_card_text_image_wrapper {
+    width: 100%;
+}
+
+.three_card_text_image_wrapper .cards_wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: -60px;
+}
+
+.three_card_text_image_wrapper .card {
+    margin: 0 20px;
+    min-height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1%;
+}
+
+.three_card_text_image_wrapper img {
+    margin: 60px auto 0 auto;
+    width: 45px;
+    height: 45px;
+}
+
+.three_card_text_image_wrapper h6 {
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.three_card_text_image_wrapper h6:nth-child(2) {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #255A93;
+}
+
+.three_card_text_image_wrapper h6:nth-child(3) {
+    font-size: 18px;
+}
+
+.three_card_text_image_wrapper a:last-child {
+    background: rgb(39, 177, 108);
+    padding: 6% 5%;
+    margin: 45px 40px 45px 40px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.three_card_text_image_wrapper a:active, .three_card_text_image_wrapper a:hover,
+.three_card_text_image_wrapper a:visited {
+    color: black;
+}
+
+.three_card_text_image_wrapper .text_and_image {
+    background: #255A93;
+    display: flex;
+    padding: 150px 0 100px 20%;
+}
+
+.three_card_text_image_wrapper .text {
+    width: 60%;
+    padding-right: 5%;
+
+    color: white;
+}
+
+.three_card_text_image_wrapper h2 {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 25px;
+}
+
+.three_card_text_image_wrapper p {
+    color: white;
+    font-family: 'Merriweather', serif;
+    line-height: 2.2;
+}
+
+.three_card_text_image_wrapper .image {
+    width: 40%;
+    height: auto;
+    min-height: 300px;
+}
+
+@media (max-width: 750px) {
+    .three_card_text_image_wrapper .cards_wrapper {
+        display: block;
+        margin: -50px 0 30px 0;
+    }
+
+    .three_card_text_image_wrapper .card {
+        margin: 20px auto;
+    }
+
+    .three_card_text_image_wrapper .text_and_image {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .three_card_text_image_wrapper .text {
+        width: 100%;
+        padding: 50px 7%;
+    }
+
+    .three_card_text_image_wrapper .image {
+        width: 100%;
+    }
+}
+

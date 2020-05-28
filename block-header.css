@@ -1,0 +1,347 @@
+.block_header_wrapper {
+    /* margin: 0;
+    position: absolute;
+    top: 37%; */
+
+    max-width: 100%;
+    display: flex;
+    padding: 26vh 0 12vh 0;
+    margin: 0;
+    /* position: relative; */
+    background: url(https://msbdev.wpengine.com/wp-content/themes/mainstreetbank/mainstreetbank/images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.block_header_wrapper .container {
+    padding: 0 10%;
+    min-width: 100%;
+} 
+    
+.block_header_wrapper .row {
+    justify-content: center;
+    margin: 0;
+    min-width: 100%;
+}
+
+.block_header_wrapper .left_text {
+    background: rgba(255,255,255, .6);
+    padding: 4.5% 6% 3% 6%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block_header_wrapper .left_text .mini_header {
+    display: flex;
+}
+
+.block_header_wrapper .left_text img {
+    margin: auto 2% auto 0;
+    padding: 0;
+}
+            
+.block_header_wrapper .left_text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1E5E85;
+    letter-spacing: 1.35px;
+    text-transform: uppercase;
+    margin: auto 0 auto 10px;
+} 
+
+.block_header_wrapper .left_text h1 {
+    font-size: 60px;
+    color: black;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    margin: 25px 0 30px 0;
+}
+
+.block_header_wrapper .left_text a {
+    font-size: 12px;
+    font-weight: bold;
+    background: #3EB183;
+    padding: 20px 0;
+    width: 225px;
+    text-align: center;
+    color: black;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+            
+.block_header_wrapper .right_form {
+    background: #3EB183;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.5% 0 0 0;
+    max-width: 100%;
+}
+
+.block_header_wrapper .right_form h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.block_header_wrapper .right_form .wpcf7 {
+    margin-top: 20px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.block_header_wrapper .right_form form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.block_header_wrapper .right_form label {
+    display: block;
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    font-size: 13px;
+}
+
+.block_header_wrapper .right_form input { 
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.block_header_wrapper .right_form span {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.block_header_wrapper .right_form span input {
+    margin-top: 2.5px;
+    padding: 6% 0 6% 10px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.right_form p:nth-child(3) {
+    min-width: 70%;
+    margin: 0 auto 10px auto;
+
+}
+
+.block_header_wrapper .right_form .wpcf7-submit {
+    width: 100%;
+    background: #1E5E85;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 22.5px 0;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px;
+}
+
+.block_header_wrapper .right_form a {
+    background: white;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.block_header_wrapper .right_form img {
+    display: none;
+    position: absolute;
+    bottom: 4.65%;
+    left: 76%;
+    margin: 0;
+}
+
+.block_header_wrapper .right_form a:hover + img {
+    display: block;
+}
+
+@media (max-width: 1200px) {
+
+    .block_header_wrapper .left_text a {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .block_header_wrapper .right_form {
+        justify-content: center;
+        padding: 0%;
+        margin: 0 0 0 4%;
+    }
+
+    .block_header_wrapper .right_form h3 {
+        font-size: 20px;
+        max-width: 70%;
+    }
+
+    .block_header_wrapper .right_form .wpcf7-submit {
+        margin-top: 0px;
+    }
+
+    .block_header_wrapper .right_form a {
+        width: 75%;
+        padding: 20px;
+    }
+
+    .block_header_wrapper .right_form img {
+        bottom: 22.93%;
+    }
+}
+
+@media (max-width: 991px) {
+    .block_header_wrapper {
+
+    }
+}
+
+@media (max-width: 815px) {
+    
+    .block_header_wrapper .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block_header_wrapper .left_text {
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .block_header_wrapper .left_text h3 {
+        margin: 6px 0 auto 9%;
+    }
+
+    .block_header_wrapper .left_text h1 {
+        text-align: center;
+    }
+
+    .block_header_wrapper .left_text .mini_header {
+        width: 100%;
+    }
+
+    .block_header_wrapper .left_text img {
+        margin: 3px 0 auto 15%;
+    }
+
+    .block_header_wrapper .right_form {
+        max-width: 100%;
+        margin: 40px 0 0 0;
+        padding: 45px 0 0 0px;
+    }
+
+    .block_header_wrapper .right_form 
+    label {
+        max-width: 100%;
+    }
+
+    .right_form p:nth-child(3) {
+        min-width: 100%;
+    }
+
+    .block_header_wrapper .right_form a {
+        width: 100%;
+    }
+
+    .block_header_wrapper .right_form img {
+        bottom: 6%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .block_header_wrapper {
+        padding: 10vh 0 12vh 0;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .block_header_wrapper {
+        min-width: 100%;
+    }
+
+    .block_header_wrapper .container {
+        min-width: 100%;
+    }
+
+    .block_header_wrapper .row {
+        min-width: 100%;
+    }
+
+    .block_header_wrapper .left_text img {
+        margin: auto 0 auto 22%;
+        height: 15px;
+        width: 15px;
+    }
+
+    .block_header_wrapper .left_text h3 {
+        margin: auto 0 auto 5%;
+        font-size: 11px;
+    }
+
+    .block_header_wrapper .left_text h1 {
+        font-size: 30px;
+    }
+
+    .block_header_wrapper .right_form h3 {
+        font-size: 15px;
+    }
+
+    .block_header_wrapper .right_form .wpcf7 {
+        padding: 0 10%;
+    }
+
+    .block_header_wrapper .right_form span input {
+        padding: 4% 0 4% 10px;
+    }
+
+    .block_header_wrapper .right_form label {
+        max-width: 85%;
+    }
+
+    .block_header_wrapper .right_form .wpcf7-submit {
+        max-width: 85%;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .block_header_wrapper .left_text img {
+        margin: auto 0 auto 15%;
+    }
+
+    .block_header_wrapper .right_form label {
+        max-width: 65%;
+    }
+
+    .block_header_wrapper .right_form span input {
+        padding: 3% 0 3% 10px;
+    }
+
+    .block_header_wrapper .right_form .wpcf7-submit {
+        width: 65%;
+    }
+
+    .block_header_wrapper .right_form img {
+        display: block;
+    }
+}

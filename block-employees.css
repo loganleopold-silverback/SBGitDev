@@ -1,0 +1,197 @@
+.employee_wrapper {
+    padding: 3% 5%;
+    background: #255A93;
+}
+
+.slick-list.draggable {
+    margin-bottom: 10px;
+}
+
+.employee_slider .employee_card {
+    margin: 20px 25px;
+    box-shadow: 10px 10px 16px rgba(0,0,0,0.25), -1px -1px 6px rgba(0,0,0,0.25);
+    height: 250px;
+    background: white;
+    padding: 20px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.employee_slider .bio_content {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.employee_slider .bio_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5%;
+    max-width: 50%;
+}
+
+.employee_slider h1 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: #255A93;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+
+.employee_slider h2 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #255A93;
+    margin: 3px 0 auto 0;
+}
+
+.employee_slider a {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    background: #3EB183;
+    padding: 15px 0;
+    width: auto;
+    margin: auto 0 0 0;
+}
+
+.employee_slider .bio_pic {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 125px;
+    width: 50%;
+}
+
+.employee_slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    padding: 0 60px;
+}
+
+.employee_slider .slick-dots li {
+    font-size: 0;
+    line-height: 0;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: 0 0;
+}
+
+.employee_slider .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+}
+
+.employee_wrapper .arrows {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 25px;
+    pointer-events: none;
+    margin: 0 20px;
+}
+
+.employee_wrapper .slick-arrow {
+    width: 30px;
+    height: 30px;
+    background: white;
+    pointer-events: all;
+    margin: 0;
+    padding: 3px;
+    cursor: pointer;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.employee_wrapper .slick-arrow img {
+    width: 15px;
+    height: 15px;
+    margin-right: 1px;
+}
+
+
+@media (max-width: 1099px) {
+    .employee_slider .employee_card {
+        margin: 20px 50px;
+    }
+}
+
+@media (max-width: 850px) {
+    .employee_slider .employee_card {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 699px) {
+    .employee_slider .employee_card {
+        height: auto;
+    }
+
+    .employee_slider .bio_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .employee_slider .bio_text {
+        padding-right: 0;
+        align-items: center;
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+
+    .employee_slider h1 {
+        margin: 0;
+    }
+
+    .employee_slider h2 {
+        text-align: center;
+    }
+
+    .employee_slider .bio_pic {
+        height: 35vw;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+
+    .employee_slider a {
+        width: 70%;
+        margin: auto auto 0 auto;
+    }
+
+    .employee_wrapper .arrows {
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .employee_wrapper .employee_card {
+        padding: 20px 10px;
+    }
+
+    .employee_slider .bio_pic {
+        max-width: none;
+        height: 40vw;
+        /* width: 60%; */
+    }
+    
+}
+
+@media (max-width: 300px) {
+    .employee_slider a {
+        padding: 15px 5px
+    }
+}
